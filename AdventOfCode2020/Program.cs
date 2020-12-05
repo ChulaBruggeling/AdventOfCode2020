@@ -66,6 +66,18 @@ namespace AdventOfCode2020
 
             Console.WriteLine();
             #endregion Day 04
+
+            #region Day 05
+            Console.WriteLine("Advent of Code - Day 05");
+
+            output = Day05.Day5Part1(InputHelper.InputToStringList(5));
+            Console.WriteLine("Part 1: " + output);
+
+            output = Day05.Day5Part2(InputHelper.InputToStringList(5));
+            Console.WriteLine("Part 2: " + output);
+
+            Console.WriteLine();
+            #endregion Day 05
         }
     }
 }
